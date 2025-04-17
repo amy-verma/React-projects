@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css'
 import {ChromePicker} from 'react-color'
 import React,{useState} from 'react'
@@ -19,6 +20,19 @@ const  App=()=> {
       
      <h1>You picked {color}</h1>
      </>
+=======
+
+import './App.css'
+import AuthForm from './AuthForm'
+
+function App() {
+
+
+  return (
+    <>
+      <AuthForm/>
+    </>
+>>>>>>> 584bd3242879a49bbb00810a9dd03877d98175f5
   )
 }
 
